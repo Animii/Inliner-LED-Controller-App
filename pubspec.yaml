@@ -1,0 +1,38 @@
+name: inlinerapp
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '^3.1.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_reactive_ble: ^5.0.3
+  permission_handler: ^10.2.0
+  fl_chart: ^0.63.0
+  circular_buffer: ^0.11.0
+  intl: ^0.18.1
+  provider: ^6.0.5
+  functional_data: ^1.1.1
+  collection: ^1.17.2
+  localstorage: ^4.0.1+4
+  flutter_colorpicker: ^1.0.3
+  flutter_riverpod: ^2.4.10
+  riverpod_annotation: ^2.3.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.8
+  functional_data_generator:
+  test: ^1.24.3
+  riverpod_generator: ^2.3.11
+  custom_lint: ^0.6.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets\img\inline_skates.png
